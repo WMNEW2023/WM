@@ -1,0 +1,65 @@
+    <!-- start tri-corps -->
+    <div class="container">
+      <div id="electrique" class="section">
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-4"> <span> <div class="rhombus"></div></span>
+                  <h1>Impression 3D</h1>
+                  </div>
+              </div>
+          <a>Plusieurs options s'offrent à vous pour imprimer en 3D vos pièces</a>
+          <h4><a href="impression">Plus de détails</a></h4>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <div id="disponibles" class="section">
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-4"> <span> <div class="rhombus"></div></span>
+                  <h1>Maintenance</h1>
+                  </div>
+              </div><a>La solution complète de maintenance informatique</a>
+          <h4><a href="reparationpc">Plus de détails</a></h4>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <div id="rs" class="section">
+        <div class="content">
+    <div class="row">
+      <div class="col-sm-4"> <span> <div class="rhombus"></div></span>
+        <h1>Création site web</h1>
+        </div>
+    </div>
+          <h4><a >Obtenez rapidement votre site Internet sur mesure</a></h4>
+          <h4><a href="creationsiteweb">Plus de détails</a></h4>
+        </div>
+        <div class="overlay"></div>
+      </div>
+     
+    </div>
+    <script>(function($){"use strict";$.fn.counterUp=function(options){var settings=$.extend({time:400,delay:10,offset:100,beginAt:0,formatter:false,context:"window",callback:function(){}},options),s;return this.each(function(){var $this=$(this),counter={time:$(this).data("counterup-time")||settings.time,delay:$(this).data("counterup-delay")||settings.delay,offset:$(this).data("counterup-offset")||settings.offset,beginAt:$(this).data("counterup-beginat")||settings.beginAt,context:$(this).data("counterup-context")||settings.context};var counterUpper=function(){var nums=[];var divisions=counter.time/counter.delay;var num=$(this).attr("data-num")?$(this).attr("data-num"):$this.text();var isComma=/[0-9]+,[0-9]+/.test(num);num=num.replace(/,/g,"");var decimalPlaces=(num.split(".")[1]||[]).length;if(counter.beginAt>num)counter.beginAt=num;var isTime=/[0-9]+:[0-9]+:[0-9]+/.test(num);if(isTime){var times=num.split(":"),m=1;s=0;while(times.length>0){s+=m*parseInt(times.pop(),10);m*=60}}for(var i=divisions;i>=counter.beginAt/num*divisions;i--){var newNum=parseFloat(num/divisions*i).toFixed(decimalPlaces);if(isTime){newNum=parseInt(s/divisions*i);var hours=parseInt(newNum/3600)%24;var minutes=parseInt(newNum/60)%60;var seconds=parseInt(newNum%60,10);newNum=(hours<10?"0"+hours:hours)+":"+(minutes<10?"0"+minutes:minutes)+":"+(seconds<10?"0"+seconds:seconds)}if(isComma){while(/(\d+)(\d{3})/.test(newNum.toString())){newNum=newNum.toString().replace(/(\d+)(\d{3})/,"$1"+","+"$2")}}if(settings.formatter){newNum=settings.formatter.call(this,newNum)}nums.unshift(newNum)}$this.data("counterup-nums",nums);$this.text(counter.beginAt);var f=function(){if(!$this.data("counterup-nums")){settings.callback.call(this);return}$this.html($this.data("counterup-nums").shift());if($this.data("counterup-nums").length){setTimeout($this.data("counterup-func"),counter.delay)}else{$this.data("counterup-nums",null);$this.data("counterup-func",null);settings.callback.call(this)}};$this.data("counterup-func",f);setTimeout($this.data("counterup-func"),counter.delay)};$this.waypoint(function(direction){counterUpper();this.destroy()},{offset:counter.offset+"%",context:counter.context})})}})(jQuery);
+</script>
+
+    <!-- fin tri-corps -->
+    <p> 
+      <br>
+      <!-- START etage 2-->
+      <body>
+        <div class="container">
+            <div class="decoration"></div>
+            
+            <div class="text">
+             
+              <h6>Présentation de la société</h6>
+              <p>LA STE WM est fondée depuis 2014 à Mhamdia BenArous,conventionné avec la ministère de l'éducation depuis 2019.
+                Nous agissons dans les domaines  de la maintenance, de la sécurisation,
+                développement web et l'impression 3D.
+                On essaie toujours d'offrir à nos clients une gamme de produit varié,adapté aux dernières technologies,efficace et robuste qui facilite leurs activités et qui répondre à leurs besoins.
+                Nos Atouts:
+                Une équipe composé par des ingénieurs et des techniciens hautement qualifié qui veille à vous offrir une qualité de service rassurante et efficace.
+                Le respect des engagements contractuels.
+                Un conseil à tous les niveaux des interventions.</p>
+            </div>
+            <div class="image"></div>
+          </div>
+         </body>
